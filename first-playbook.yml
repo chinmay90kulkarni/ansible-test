@@ -1,0 +1,12 @@
+- name: First playbook example.
+  hosts: group1
+  tasks:
+    - name:  Findout whoami
+      shell: whoami
+      register: T1
+    
+
+    
+    
+    
+    
