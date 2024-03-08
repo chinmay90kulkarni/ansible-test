@@ -3,7 +3,6 @@
   tasks:
     - name:  Findout whoami
       shell: whoami
-      register: T1
     
 
     
