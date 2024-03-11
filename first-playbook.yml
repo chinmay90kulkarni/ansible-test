@@ -1,11 +1,5 @@
-- name: First playbook example.
+- name: Liveness server check module
   hosts: group1
   tasks:
-    - name:  Findout whoami
-      shell: whoami
-    
-
-    
-    
-    
-    
+    - name:  Server Status
+      ansible.builtin.ping:
