@@ -1,0 +1,8 @@
+---
+- name: Install necessary softwares
+  become: yes
+  hosts: group1
+  tasks:
+    - name: Update the software package dependecy.
+      ansible.builtin.shell:
+        "apt update"   
