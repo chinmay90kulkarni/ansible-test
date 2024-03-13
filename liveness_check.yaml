@@ -1,3 +1,4 @@
+---
 - name: Liveness server check module
   hosts: group1
   tasks:
