@@ -1,6 +1,7 @@
 ---
 - name: Install necessary softwares
   hosts: group1
+  strategy: free
   become: true
   tasks:
     - name: Update the software package dependecy.
